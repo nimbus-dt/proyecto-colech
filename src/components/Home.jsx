@@ -7,8 +7,8 @@ import {
   Badge,
   useBreakpointValue,
   Button,
-} from '@aws-amplify/ui-react';
-import heroIcon from '../assets/images/hero-icon.svg';
+} from "@aws-amplify/ui-react";
+import heroIcon from "../assets/images/hero-icon.svg";
 
 export function Home() {
   /* CONSTANTS */
@@ -34,22 +34,22 @@ export function Home() {
       alignContent="center"
     >
       <Card
-        width={responsiveBool ? '90%' : '85%'}
-        height={responsiveBool ? 'fit-content' : '80%'}
+        width={responsiveBool ? "90%" : "85%"}
+        height={responsiveBool ? "fit-content" : "80%"}
         variation="elevated"
         marginTop="5%"
         marginBottom="5%"
       >
         <Flex
-          direction={responsiveBool ? 'column' : 'row'}
+          direction={responsiveBool ? "column" : "row"}
           width="100%"
           height="100%"
-          justifyContent={responsiveBool ? 'center' : 'center'}
+          justifyContent={responsiveBool ? "center" : "center"}
           marginBottom="5%"
         >
           <Flex
             direction="column"
-            width={responsiveBool ? '100%' : '50%'}
+            width={responsiveBool ? "100%" : "50%"}
             height="100%"
             alignItems="center"
             justifyContent="center"
@@ -58,7 +58,7 @@ export function Home() {
           </Flex>
           <Flex
             direction="column"
-            width={responsiveBool ? '100%' : '50%'}
+            width={responsiveBool ? "100%" : "50%"}
             height="100%"
             alignItems="center"
             justifyContent="center"
@@ -86,10 +86,10 @@ export function Home() {
               avanzadas.
             </Text>
             <Flex
-              direction={responsiveBool ? 'column' : 'row'}
+              direction={responsiveBool ? "column" : "row"}
               justifyContent="space-between"
               width="100%"
-              alignContent={responsiveBool ? 'center' : 'top'}
+              alignContent={responsiveBool ? "center" : "top"}
             >
               <Badge>Predicciones</Badge>
               <Badge>Por Ministerio</Badge>
@@ -100,7 +100,7 @@ export function Home() {
               variation="primary"
               onClick={() => {
                 // redirect to youtube.com in another tab
-                window.open('https://youtu.be/1nH2APt0Mg4', '_blank');
+                window.open("https://youtu.be/1nH2APt0Mg4", "_blank");
               }}
             >
               Watch Demo
