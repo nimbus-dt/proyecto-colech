@@ -103,7 +103,7 @@ export function Home() {
                 window.open('https://youtu.be/1nH2APt0Mg4', '_blank');
               }}
             >
-              Watch Demo
+              Watch pupu
             </Button>
           </Flex>
         </Flex>
