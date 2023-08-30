@@ -77,7 +77,7 @@ export function Home() {
               textAlign="center"
               width="100%"
             >
-              Herramientas de Inteligencia Artificial Para la Política Aplicada
+              Herramientas de Inteligencia Para la Política Aplicada
               de El Salvador
             </Heading>
             <Text textAlign="center" width="100%">
@@ -103,7 +103,7 @@ export function Home() {
                 window.open('https://youtu.be/1nH2APt0Mg4', '_blank');
               }}
             >
-              Watch Demo
+              Watch Website
             </Button>
           </Flex>
         </Flex>
